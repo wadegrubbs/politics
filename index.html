@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Political Attitude Assessment</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Where are your politics at?</h1>
+
+      <p>We've been observing you and we just need you to answer a few more questions so that we can have you figured out. Sooo....</p>
+
+      <form id="aboutYou">
+
+        <label for="guns">Do you think every American should own a gun?</label>
+        <select id="answer1">
+          <option value="yes">Yes!</option>
+          <option value="no">No!</option>
+        </select>
+        <br>
+        <label for="poor">Do you think impoverished people should be moved to another country?</label>
+        <select id="answer2">
+          <option value="yes">Yes!</option>
+          <option value="no">No!</option>
+        </select>
+        <br>
+        <label for="reagan">Was Ronald Reagan a good president?</label>
+        <select id="answer3">
+          <option value="yes">Yes!</option>
+          <option value="no">No!</option>
+        </select>
+        <br>
+        <label for="hillary">Will Hillary be a good president?</label>
+        <select id="answer4">
+          <option value="yes">Yes!</option>
+          <option value="no">No!</option>
+        </select>
+        <br>
+        <label for="taxes">Are your taxes too high?</label>
+        <select id="answer5">
+          <option value="yes">Yes!</option>
+          <option value="no">No!</option>
+        </select>
+
+        <button type="submit" class="btn">Hit me</button>
+      </form>
+
+      <div id="match">
+        <p>You appear to be a raging <span id="party"></span>!</p>
+      </div>
+    </div>
+  </body>
+</html>
